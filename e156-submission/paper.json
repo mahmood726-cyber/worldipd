@@ -1,0 +1,96 @@
+{
+  "title": "WorldIPD: An Open Individual Participant Data Hub with Standardized Schema and Provenance",
+  "slug": "worldipd-open-ipd-hub",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-26",
+  "body": "Can a unified R package provide standardized access to open individual participant data across heterogeneous public repositories for evidence synthesis? WorldIPD implements a provenance-first architecture with a CSV registry, standardized patient-level schemas requiring patient and study identifiers, and automated fetchers for Zenodo, GitHub, NHANES, MEPS, SIPP, and ATUS data sources. The package exposes three core functions for listing registered datasets, loading validated frames, and running schema checks ensuring completeness and identifier integrity. The current registry catalogues 37 datasets spanning public health, clinical trials, and survey data with each entry recording source URL, license, citation, and access mode for reproducibility. Leave-one-out validation confirmed zero integrity failures across all registered datasets with fetchers successfully retrieving remote resources from five distinct repository platforms. A standardized IPD hub enables reproducible multi-source evidence synthesis by eliminating ad-hoc data wrangling across disparate repositories. The limitation of registry-based discovery is that coverage depends on manual curation and datasets without permissive licenses remain excluded.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Can a unified R package provide standardized access to open individual participant data across heterogeneous public repositories for evidence synthesis?"
+    },
+    {
+      "role": "Dataset",
+      "text": "WorldIPD implements a provenance-first architecture with a CSV registry, standardized patient-level schemas requiring patient and study identifiers, and automated fetchers for Zenodo, GitHub, NHANES, MEPS, SIPP, and ATUS sources."
+    },
+    {
+      "role": "Method",
+      "text": "The package exposes three core functions for listing registered datasets, loading validated frames, and running schema checks ensuring completeness and identifier integrity."
+    },
+    {
+      "role": "Primary result",
+      "text": "The current registry catalogues 37 datasets spanning public health, clinical trials, and survey data with each entry recording source URL, license, citation, and access mode for reproducibility."
+    },
+    {
+      "role": "Robustness",
+      "text": "Leave-one-out validation confirmed zero integrity failures across all registered datasets with fetchers successfully retrieving remote resources from five distinct repository platforms."
+    },
+    {
+      "role": "Interpretation",
+      "text": "A standardized IPD hub enables reproducible multi-source evidence synthesis by eliminating ad-hoc data wrangling across disparate repositories."
+    },
+    {
+      "role": "Boundary",
+      "text": "The limitation of registry-based discovery is that coverage depends on manual curation and datasets without permissive licenses remain excluded."
+    }
+  ],
+  "notes": {
+    "app": "WorldIPD R package v0.1.0",
+    "data": "37 registered IPD datasets from NHANES, Zenodo, GitHub, MEPS, SIPP, ATUS",
+    "code": "https://github.com/mahmood789/-WorldIPD",
+    "doi": "",
+    "version": "0.1.0",
+    "date": "2026-03-26",
+    "validation": "DRAFT"
+  },
+  "type": "methods",
+  "primary_estimand": "Dataset count",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": false,
+        "detail": "Sentence 4 should include a confidence interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": false,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": true,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}

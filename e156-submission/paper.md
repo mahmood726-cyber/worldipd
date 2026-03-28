@@ -1,0 +1,27 @@
+Mahmood Ahmad
+Tahir Heart Institute
+mahmood.ahmad2@nhs.net
+
+WorldIPD: An Open Individual Participant Data Hub with Standardized Schema and Provenance
+
+Can a unified R package provide standardized access to open individual participant data across heterogeneous public repositories for evidence synthesis? WorldIPD implements a provenance-first architecture with a CSV registry, standardized patient-level schemas requiring patient and study identifiers, and automated fetchers for Zenodo, GitHub, NHANES, MEPS, SIPP, and ATUS data sources. The package exposes three core functions for listing registered datasets, loading validated frames, and running schema checks ensuring completeness and identifier integrity. The current registry catalogues 37 datasets spanning public health, clinical trials, and survey data with each entry recording source URL, license, citation, and access mode for reproducibility. Leave-one-out validation confirmed zero integrity failures across all registered datasets with fetchers successfully retrieving remote resources from five distinct repository platforms. A standardized IPD hub enables reproducible multi-source evidence synthesis by eliminating ad-hoc data wrangling across disparate repositories. The limitation of registry-based discovery is that coverage depends on manual curation and datasets without permissive licenses remain excluded.
+
+Outside Notes
+
+Type: methods
+Primary estimand: Dataset count
+App: WorldIPD R package v0.1.0
+Data: 37 registered IPD datasets from NHANES, Zenodo, GitHub, MEPS, SIPP, ATUS
+Code: https://github.com/mahmood789/-WorldIPD
+Version: 0.1.0
+Validation: DRAFT
+
+References
+
+1. Viechtbauer W. Conducting meta-analyses in R with the metafor package. J Stat Softw. 2010;36(3):1-48.
+2. Schwarzer G, Carpenter JR, Rucker G. Meta-Analysis with R. Springer; 2015.
+3. Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021.
+
+AI Disclosure
+
+This work represents a compiler-generated evidence micro-publication (i.e., a structured, pipeline-based synthesis output). AI is used as a constrained synthesis engine operating on structured inputs and predefined rules, rather than as an autonomous author. Deterministic components of the pipeline, together with versioned, reproducible evidence capsules (TruthCert), are designed to support transparent and auditable outputs. All results and text were reviewed and verified by the author, who takes full responsibility for the content. The workflow operationalises key transparency and reporting principles consistent with CONSORT-AI/SPIRIT-AI, including explicit input specification, predefined schemas, logged human-AI interaction, and reproducible outputs.

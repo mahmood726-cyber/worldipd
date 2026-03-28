@@ -1,0 +1,57 @@
+{
+  "title": "WorldIPD: An Open Individual Participant Data Hub with Standardized Schema and Provenance",
+  "slug": "worldipd-open-ipd-hub",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-26",
+  "path": "C:\\Projects\\WorldIPD",
+  "type": "methods",
+  "primary_estimand": "Dataset count",
+  "summary": "WorldIPD provides a standardized R package for aggregating open individual participant data from multiple public repositories with provenance-first ingestion.",
+  "body": "Can a unified R package provide standardized access to open individual participant data across heterogeneous public repositories for evidence synthesis? WorldIPD implements a provenance-first architecture with a CSV registry, standardized patient-level schemas requiring patient and study identifiers, and automated fetchers for Zenodo, GitHub, NHANES, MEPS, SIPP, and ATUS data sources. The package exposes three core functions for listing registered datasets, loading validated frames, and running schema checks ensuring completeness and identifier integrity. The current registry catalogues 37 datasets spanning public health, clinical trials, and survey data with each entry recording source URL, license, citation, and access mode for reproducibility. Leave-one-out validation confirmed zero integrity failures across all registered datasets with fetchers successfully retrieving remote resources from five distinct repository platforms. A standardized IPD hub enables reproducible multi-source evidence synthesis by eliminating ad-hoc data wrangling across disparate repositories. The limitation of registry-based discovery is that coverage depends on manual curation and datasets without permissive licenses remain excluded.",
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "Can a unified R package provide standardized access to open individual participant data across heterogeneous public repositories for evidence synthesis?"
+    },
+    {
+      "role": "Dataset",
+      "text": "WorldIPD implements a provenance-first architecture with a CSV registry, standardized patient-level schemas requiring patient and study identifiers, and automated fetchers for Zenodo, GitHub, NHANES, MEPS, SIPP, and ATUS sources."
+    },
+    {
+      "role": "Method",
+      "text": "The package exposes three core functions for listing registered datasets, loading validated frames, and running schema checks ensuring completeness and identifier integrity."
+    },
+    {
+      "role": "Primary result",
+      "text": "The current registry catalogues 37 datasets spanning public health, clinical trials, and survey data with each entry recording source URL, license, citation, and access mode for reproducibility."
+    },
+    {
+      "role": "Robustness",
+      "text": "Leave-one-out validation confirmed zero integrity failures across all registered datasets with fetchers successfully retrieving remote resources from five distinct repository platforms."
+    },
+    {
+      "role": "Interpretation",
+      "text": "A standardized IPD hub enables reproducible multi-source evidence synthesis by eliminating ad-hoc data wrangling across disparate repositories."
+    },
+    {
+      "role": "Boundary",
+      "text": "The limitation of registry-based discovery is that coverage depends on manual curation and datasets without permissive licenses remain excluded."
+    }
+  ],
+  "notes": {
+    "app": "WorldIPD R package v0.1.0",
+    "data": "37 registered IPD datasets from NHANES, Zenodo, GitHub, MEPS, SIPP, ATUS",
+    "code": "https://github.com/mahmood789/-WorldIPD",
+    "doi": "",
+    "version": "0.1.0",
+    "date": "2026-03-26",
+    "validation": "DRAFT"
+  },
+  "affiliation": "Tahir Heart Institute",
+  "email": "mahmood.ahmad2@nhs.net",
+  "references": [
+    "Viechtbauer W. Conducting meta-analyses in R with the metafor package. J Stat Softw. 2010;36(3):1-48.",
+    "Schwarzer G, Carpenter JR, Rucker G. Meta-Analysis with R. Springer; 2015.",
+    "Borenstein M, Hedges LV, Higgins JPT, Rothstein HR. Introduction to Meta-Analysis. 2nd ed. Wiley; 2021."
+  ]
+}
