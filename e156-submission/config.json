@@ -3,7 +3,7 @@
   "slug": "worldipd-open-ipd-hub",
   "author": "Mahmood Ahmad",
   "date": "2026-03-26",
-  "path": "C:\\Projects\\WorldIPD",
+  "path": "WorldIPD",
   "type": "methods",
   "primary_estimand": "Dataset count",
   "summary": "WorldIPD provides a standardized R package for aggregating open individual participant data from multiple public repositories with provenance-first ingestion.",
