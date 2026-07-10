@@ -9,6 +9,6 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Depends: R (>= 4.1)
 Imports: utils, stats, jsonlite
-Suggests: httr, dplyr, tibble, readr
+Suggests: httr, dplyr, tibble, readr, testthat (>= 3.0.0)
 URL: https://github.com/mahmood789/WorldIPD
 BugReports: https://github.com/mahmood789/WorldIPD/issues

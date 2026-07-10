@@ -2,3 +2,6 @@
 .Rproj.user
 .DS_Store
 inst/extdata/*.zip
+__pycache__/
+*.pyc
+.pytest_cache/
